@@ -25,7 +25,7 @@ GUIDE_WALL=2.0;
 if($preview)
   main_assembly();
 
-module main_assembly() pose([-5.17,-19.54,-31.74],[20,0,70])
+module main_assembly() pose([20,0,70],[-5.17,-19.54,-31.74])
   assembly("main") {
   z_off = is_undef($explode) || !$explode ? 0 : 10;
   *translate([0,0,-1.6 -z_off]) pcb();

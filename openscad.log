@@ -1,5 +1,3 @@
-WARNING: undefined operation (-undefined) in file bom.scad, line 66
-WARNING: Problem converting rotate(a=[0, 0, undef]) parameter in file ../NopSCADlib/utils/core/bom.scad, line 66
 Compiling design (CSG Products normalization)...
 Normalized CSG tree has 30 elements
 Compiling highlights (1 CSG Trees)...
@@ -7,4 +5,4 @@ Geometries in cache: 107
 Geometry cache size in bytes: 592080
 CGAL Polyhedrons in cache: 0
 CGAL cache size in bytes: 0
-Total rendering time: 0:00:00.291
+Total rendering time: 0:00:00.230

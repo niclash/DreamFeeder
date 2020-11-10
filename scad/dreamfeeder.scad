@@ -25,7 +25,7 @@ GUIDE_WALL=2.0;
 if($preview)
   main_assembly();
 
-module main_assembly()
+module main_assembly() pose([-5.17,-19.54,-31.74])
   assembly("main") {
   z_off = is_undef($explode) || !$explode ? 0 : 10;
   *translate([0,0,-1.6 -z_off]) pcb();
@@ -91,7 +91,7 @@ module guide1_stl() {
     guide_2d(GUIDE_WALL,-(TAPE_THICKNESS+GUIDE_WALL)/2);
   }
   translate([0,0,3*GUIDE_BASE+WIDTH+0.5]) {
-    translate([-18+GUIDE_WALL/2+(TAPE_THICKNESS+GUIDE_WALL)/2,-51+GUIDE_WALL/2,0]) rotate([180,0,0]) screw_receptor();
+
     translate([-18+GUIDE_WALL/2+(TAPE_THICKNESS+GUIDE_WALL)/2,5,0]) rotate([180,0,0]) screw_receptor();
     translate([40,45-GUIDE_WALL-TAPE_THICKNESS,0]) rotate([180,0,0]) screw_receptor();
     translate([11+GUIDE_WALL/2,-95+(TAPE_THICKNESS+GUIDE_WALL)/2,0]) rotate([180,0,0]) screw_receptor();

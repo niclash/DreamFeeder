@@ -1,5 +1,5 @@
 {
-    "pusher.stl": 0.546,
-    "guide1.stl": 4.221,
-    "guide2.stl": 3.923
+    "pusher.stl": 0.6,
+    "guide1.stl": 3.144,
+    "guide2.stl": 3.965
 }

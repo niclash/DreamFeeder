@@ -1,0 +1,5 @@
+ECHO: "~main_assembly{"
+ECHO: "~guide1.stl(colour='[0, 0.572549, 0]')"
+ECHO: "~guide2.stl(colour='[0, 0.572549, 0]')"
+ECHO: "~pusher.stl(colour='[0, 0.572549, 0]')"
+ECHO: "~}main_assembly"

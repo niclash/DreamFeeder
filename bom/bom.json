@@ -1,0 +1,24 @@
+[
+    {
+        "name": "main_assembly",
+        "big": null,
+        "count": 1,
+        "assemblies": {},
+        "vitamins": {},
+        "printed": {
+            "guide1.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]"
+            },
+            "guide2.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]"
+            },
+            "pusher.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]"
+            }
+        },
+        "routed": {}
+    }
+]

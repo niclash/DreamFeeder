@@ -1,0 +1,5 @@
+main_assembly:
+Printed:
+  1 guide1.stl
+  1 guide2.stl
+  1 pusher.stl
